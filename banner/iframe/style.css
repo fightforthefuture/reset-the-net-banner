@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+}
+
+.container {
+	background-image: url(images/background.png);
+	height: 58px;
+	overflow: hidden;
+	opacity: 0;
+
+	-webkit-transition: opacity 2s;
+	   -moz-transition: opacity 2s;
+	    -ms-transition: opacity 2s;
+	     -o-transition: opacity 2s;
+	        transition: opacity 2s;
+}
+
+.close {
+	background-image: url(images/close.png);
+	cursor: pointer;
+	height: 18px;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	width: 16px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 550px) {
+	img {
+		padding: 14px 0 14px;
+		width: 320px;
+	}
+}
