@@ -2,7 +2,7 @@ How to use the banner
 -------------------------
 Add this to any page, and you're golden: ([**See the demo!**][2])
 ```
-<script src="//fightforthefuture.github.io/reset-the-net-banner/banner/rtn.js"></script>
+<script src="//fightforthefuture.github.io/reset-the-net-banner/banner/rtn.js" async></script>
 ```
 
 
