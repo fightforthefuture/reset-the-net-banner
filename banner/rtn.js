@@ -117,12 +117,12 @@ function onDomContentLoaded() {
 			return;
 		}
 
-		// Only show on June 5th.
-		var d = new Date();
-		var dateString = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate();
-		if (dateString !== '2014/6/5') {
-			return;
-		}
+		// // Only show on June 5th.
+		// var d = new Date();
+		// var dateString = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate();
+		// if (dateString !== '2014/6/5') {
+		// 	return;
+		// }
 	}
 
 	_rtn_util.setCookie('_RTN_banner_SHOWN', 'true', 365);

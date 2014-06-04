@@ -8,7 +8,7 @@ Add this to any page, and you're golden: ([**See the demo!**][2])
 
 How to QA the banner
 --------------------
-The banner is designed to only appear on June 5 2014, and only once, per user, per device. If you'd like to force it to show up on your page for testing, please (re)load the page with #ALWAYS_SHOW_RTN_banner in the URL.
+The banner is designed to only appear only once, per user, per device. If you'd like to force it to show up on your page for testing, please (re)load the page with #ALWAYS_SHOW_RTN_banner in the URL.
 
 (eg: **http://flagger.io/#ALWAYS_SHOW_RTN_banner**)
 
