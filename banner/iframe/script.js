@@ -46,7 +46,7 @@ $(document).ready(function() {
 	sendMessage('getAnimation');
 
 	// Shutdown, when required.
-	$('.close').on('mousedown', shutdown);
+	$('.close').on('click', shutdown);
 	$('a').on('click', shutdown);
 });
 
